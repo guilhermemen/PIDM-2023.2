@@ -1,6 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
-import MySectionList from './components/12SectionList';
+import PokemonApp from './components/16Pokemon/PokemonApp';
+// import MainScreen from './components/15Navigation/15NavStack/MainScreen';
+// import MySectionList from './components/12SectionList';
+// import MyFlexboxB from './components/13Flexbox/13FlexboxB';
+// import MyNetworking from './components/14Networking/14MyNetworking';
 // import Questao1  from "./components/Ativ1/questao1";
 // import HelloRNV2 from './components/02HelloRNV2';
 // import HelloRN from './components/01HelloRN';
@@ -12,7 +16,8 @@ import MySectionList from './components/12SectionList';
 // import Calculadora from './components/09Calculadora/09Calcladora';
 // import MyScrollView from './components/10MyScrollView';
 // import MyFlatList from './components/11MyFlatList';
-import MyFlexbox from './components/13Flexbox/13Flexbox';
+// import MyFlexbox from './components/13Flexbox/13Flexbox';
+
 
 export default function App() {
   return (
@@ -24,7 +29,11 @@ export default function App() {
       {/* <MyFlatList /> */}
       {/* <MySectionList /> */}
       {/* <State /> */}
-      <MyFlexbox />
+      {/* <MyFlexbox /> */}
+      {/* <MyFlexboxB /> */}
+      {/* <MyNetworking /> */}
+      {/* <MainScreen /> */}
+      <PokemonApp />
     </View>
   );
 }
