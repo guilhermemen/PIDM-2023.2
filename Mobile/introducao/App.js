@@ -1,8 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
-import PokemonApp from './components/16Pokemon/PokemonApp';
+import MyProva from './components/Prova01/questao01';
+// import PokemonApp from './components/16Pokemon/PokemonApp';
 // import MainScreen from './components/15Navigation/15NavStack/MainScreen';
 // import MySectionList from './components/12SectionList';
+
+// import MyModal1 from './components/Prova01/questao02';
 // import MyFlexboxB from './components/13Flexbox/13FlexboxB';
 // import MyNetworking from './components/14Networking/14MyNetworking';
 // import Questao1  from "./components/Ativ1/questao1";
@@ -33,7 +36,11 @@ export default function App() {
       {/* <MyFlexboxB /> */}
       {/* <MyNetworking /> */}
       {/* <MainScreen /> */}
-      <PokemonApp />
+      {/* <PokemonApp /> */}
+
+      <MyProva />
+      {/* <MyModal1 /> */}
+      
     </View>
   );
 }
