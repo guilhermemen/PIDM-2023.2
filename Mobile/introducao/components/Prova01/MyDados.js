@@ -1,29 +1,26 @@
 const dados = [
     {
         title: "terça-feira", data: [
-            { nome: "Pinheiro", id: 1 },
-            { nome: "netflix", id: 2 },
-            {preco: "100"}
+            { nome: "Pinheiro", time:"10:00 AM", value: "R$50.00", icon: "cart"},
+            { nome: "netflix", time:"10:00 AM", value: "R$50.00", icon:"tools" },
         ]
     },
 
     {
         title: "25 set", data: [
-            { nome: "farmácia", id: 3 },
-            { nome: "Rits", id: 4 },
+            { nome: "farmácia", time:"10:00 AM", value: "R$50.00", icon:"medical-bag"},
         ]
     },
 
     {
         title: "24 set", data: [
-            { nome: "Rits", id: 5 },
-            { nome: "Landua", id: 6 },
+            { nome: "Rits", time:"10:00 AM", value: "R$50.00", icon:"tools" },
+            { nome: "Landua", time:"10:00 AM", value: "R$50.00", icon:"tools" },
         ]
     },
     {
         title: "21 Set", data: [
-            { nome: "Pinheiro", id: 7 },
-            { nome: "Farmácia", id: 8},
+            { nome: "Pinheiro", time:"10:00 AM", value: "R$50.00", icon:"cart"}
         ]
     },
 

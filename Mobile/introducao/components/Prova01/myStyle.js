@@ -8,18 +8,18 @@ const estilos = StyleSheet.create({
         padding:30,
         paddingTop: 25,
         width:390,
-        backgroundColor: "black",
+        backgroundColor: "white",
     },
     //data das compras
     conteudo1:{
-        color:"white",
+        color:"black",
         fontSize:20,
         fontWeight:"medium"
     },
     //compras
     conteudo2: {
         fontSize: 25,
-        color:"white",
+        color:"black",
         fontWeight:"600",
         paddingLeft: 20
 
@@ -27,7 +27,7 @@ const estilos = StyleSheet.create({
 
     conteudo3: {
         fontSize: 40,
-        color:"white",
+        color:"black",
         fontWeight:"600",
         paddingLeft: 20,
 
